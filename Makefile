@@ -1,6 +1,6 @@
 
-OUTPUT=hardlink
-C_FILES=hardlink.c
+OUTPUT=hlink
+C_FILES=hlink.c
 
 all:
 	gcc ${C_FILES} -o ${OUTPUT}

@@ -1,8 +1,8 @@
-# hardlink
+# hlink (formerly hardlink)
 a simple command-line utility that implements directory hardlinks on Mac OsX
 
-to link: `hardlink source destination`  
-to unlink: `hardlink -u destination`
+to link: `hlink source destination`  
+to unlink: `hlink -u destination`
 
 ## Motivation
 I was trying to patch a third-party library and make the files available in our
@@ -15,15 +15,11 @@ questions.. and decided to create a lib out if it that everybody can use
 - You need [xCode](https://developer.apple.com/technologies/mac/#xcode) command line tools installed to use `make` command
 
 ## Installation
-- `git clone git://github.com/selkhateeb/hardlink.git`
-- `make`
-- `sudo make install`
-
-Note: in case you get error `directory /usr/local/bin does not exist`, just copy hardlink app into `/usr/bin` instead
+brew install http ...
 
 ## Usage
 To create a hard link:
-- `hardlink source destination`
+- `hlink source destination`
 
 To remove the link:
-- `hardlink -u destination`
+- `hlink -u destination`
